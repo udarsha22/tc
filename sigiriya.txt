@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+   <title>SIGIRIYA</title>
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" ></script>
+<style>
+    /* body */
+  body {margin: 0;
+  background-color: whitesmoke;}
+  
+    /* nav bar */
+   ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  /* nav active */
+.active {
+  background-color: #4CAF50;
+}
+
+    /* image responsive */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-left: 50px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+    /* padding space */
+  .pad {
+  padding-top:50px;
+  }
+
+    /* image responsivness */
+  .responsive1 {
+  max-width: 100%;
+  height: auto;
+}
+  
+ /* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+  margin-top: 250px;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+    .col-xs-12.col-sm-12.col-md-12.mt-2.mt-sm-5 {
+    margin-left: 400px;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+  
+    /* container body */
+       body {
+    background: whitesmoke;
+    background-repeat: no-repeat;
+      color: aliceblue;
+}
+  
+    /* form body */
+        form {
+    padding: 50px 2em;
+    width: 50%;
+    margin: 0em auto;
+    border: rgba(23, 19, 19, 0.95);
+    -moz-box-shadow: 0px 3px 58px 1px rgb(0, 0, 0);
+    box-shadow: 0px 3px 58px 1px rgb(0, 0, 0);
+      border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+      background: #293c21;
+  text-align: center;
+      }
+      
+  /* sigiriya container */
+      .sigcontain {
+    padding-top: 25px;
+    padding-bottom: 25px;
+      color: aliceblue;
+    font-size: 49;
+          text-align: center;
+}
+  
+    /* text headings */
+txt	 {
+  font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 6px;
+  font-family: "Poppins", sans-serif;
+  color: #whitesmoke !important;
+}
+  txt1	 {
+  font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  color: #whitesmoke !important;
+}
+  /* weather checker */
+  .modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+.ShowWeatherForcast {
+    color: black;
+}
+  input, button, select, textarea {
+    color: black;
+}
+  .btn-primary {
+    bottom: 15px;
+    position: fixed;
+    left: 1250px;
+}
+/* irrelevant styling */
+body { text-align: center; }
+body p { 
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+#tallModal .modal-body p { margin-bottom: 900px }
+span#worldclock {
+    color: black;
+}
+</style>
+</head>
+<body>
+ <!-- nav bar -->
+      <ol>
+  <li><a class="active" href="#home">Ceylon Tourism</a></li>
+  <li><a href="#news">Provinces</a></li>
+  <li><a href="#contact">Accomadation</a></li>
+  <li><a href="#about">Transport</a></li>
+</ol>
+  
+  <!-- ./nav bar -->
+  
+    <!--banner-->
+        <img src="https://www.srilanka.travel/images/banner/banner1.jpg" alt="" class="responsive1" width="1730" height="450">
+        
+        <div class="pad"></div>
+          
+          <!--./banner-->
+  
+          
+            <!--form-->
+ <form>
+    
+  <div class="sigcontain">
+    <txt>SIGIRIYA</txt>
+  </div>
+    <hr>
+      
+       <div class="1"> 
+         Sigiriya also known as the Lion's Rock is a rock fortress and a palace located in the Matale district of Sri Lanka. This ruin is surrounded by gardens, ponds and other structures. Sigiriya was built by King Kassapa and it is included as a World Heritage site. Sigiriya is the best preserved city centre in Asia.<br>
+         <br>
+         The distance from the Colombo is 169km and is on the way to Anuradhapura or polonnaruwa. Sigiriya was designated as a world heritage site in 1982. Sigiriya is famous for it's palace ruins on top of a massive 200 meter high rock surrounded by the remains of an extensive network of gardens, reservoirs and other structures.<br>
+<br>
+The rock itself is a lava plug left over from an ancient long extinct volcano. It is also renowned for its ancient paintings (frescoes), which are similar to those found at Ajanta Caves in India. It is generally agreed, however, that the Sigiriya Frescoes exhibit a uniquely Sri Lankan style. Sigiriya may have been inhabited through prehistoric times.<br>
+<br>
+It was used as a rock-shelter mountain monastery from about the 5th century BC, with caves prepared and donated by devotees of the Buddhist Sangha. Sigiriya Museum shows photos of the excavation of Sigiriya, reproductions of the frescoes, examples and translations of some of the graffiti on the Mirror Wall, and artifacts excavated from the site.<br>
+<br>
+You can probably view the museum in about 1 hour. Since the museum is outside the main entrance, Sigiriya is connected to the city of Dambulla by a regular bus service. These buses run between 6:30AM to 6:00PM every day at intervals of 30 minutes and cost LKR40. Travel by tuk-tuk from Dambulla is LKR800-1000. It is important to note that Sigiriya is located about 25 km from Dambulla, the closest city, and it is recommended not to miss the last bus back to Dambulla at around 6:00PM in case you are not staying at Sigiriya itself.
+<br>
+  <br>
+    <hr>
+      <center><txt1>SIGIRIYA Information and Google Map</txt1></center>
+      <hr>
+   
+        
+        <!--google map-->
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="450" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=sigiriya&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-vpn/">el mejor servicio vpn en julio de 2019</a></div><style>.mapouter{position:relative;text-align:right;height:350px;width:450px;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:450px;}</style></div>
+        </div>  
+  </div>
+    
+    <!--./google map-->
+</form>
+   <!--./form-->
+  
+  <!--weather checker-->
+      <a data-toggle="modal" href="#shortModal" class="btn btn-primary">Weather Checker</a>
+      
+    <div id="shortModal" class="modal modal-wide fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+         <input id="city"></input>
+  <button id="getWeatherForcast">GET WEATHER</button>
+  <div class="ShowWeatherForcast"></div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      
+      $("#getWeatherForcast").click(function(){
+                
+                var city = $("#city").val();
+            var key  = '4de3768c62b67fe359758977a3efc069';
+            
+            $.ajax({
+              url:'http://api.openweathermap.org/data/2.5/weather',
+              dataType:'json',
+              type:'GET',
+              data:{q:city, appid: key, units: 'metric'},
+
+              success: function(data){
+                var wf = '';
+                $.each(data.weather, function(index, val){
+
+                  wf += '<p><b>' + data.name + "</b><img src="+ val.icon + ".png></p>"+ data.main.temp + '&deg;C ' + 
+                  ' | ' + val.main + ", " + val.description 
+
+                });
+              
+               $(".ShowWeatherForcast").html(wf);
+              }
+
+            })
+
+      });
+    });
+  </script>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+      
+      <!--./weather checker-->
+      
+      <!--weather checker JS-->
+      <script>
+        $(".modal-wide").on("show.bs.modal", function() {
+  var height = $(window).height() - 200;
+  $(this).find(".modal-body").css("max-height", height);
+});
+      </script>
+      <!--./weather checker JS-->
+  
+  <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>DISCOVER</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tourist sites</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Cities & towns</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Photos</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gastronomy</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Sri Lanka</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>GOING OUT & STAY</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hotels</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Restaurants</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Outings</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Campsites</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Vacation rentals</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>TRAVEL</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>How to get there</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Rental car</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Train tickets</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Transport Services</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                                  <p><u><a href="">CEYLON TOURISM</a></u> is a registered tourism site in Sri Lanka, providing acess and information to tourists from around the globe.	</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="" target="_blank">CEYLON TOURISM</a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+    
+</body>
+</html>

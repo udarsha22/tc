@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+   <title>KANDY</title>
+<head>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" ></script>
+<style>
+    /* body */
+  body {margin: 0;
+  background-color: whitesmoke;}
+  
+    /* nav bar */
+   ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  /* nav active */
+.active {
+  background-color: #4CAF50;
+}
+
+    /* image responsive */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-left: 50px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+    /* padding space */
+  .pad {
+  padding-top:50px;
+  }
+
+    /* image responsivness */
+  .responsive1 {
+  max-width: 100%;
+  height: auto;
+}
+  
+ /* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+  margin-top: 250px;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+  
+    /* container body */
+       body {
+    background: whitesmoke;
+    background-repeat: no-repeat;
+      color: aliceblue;
+}
+  
+    /* form body */
+        form {
+    padding: 50px 2em;
+    width: 50%;
+    margin: 0em auto;
+    border: rgba(23, 19, 19, 0.95);
+    -moz-box-shadow: 0px 3px 58px 1px rgb(0, 0, 0);
+    box-shadow: 0px 3px 58px 1px rgb(0, 0, 0);
+      border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+      background: #3c0923;
+  text-align: center;
+      }
+      
+  /* kandy container */
+      .sigcontain {
+    padding-top: 25px;
+    padding-bottom: 25px;
+      color: aliceblue;
+    font-size: 49;
+          text-align: center;
+}
+  
+    /* text headings */
+txt	 {
+  font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 6px;
+  font-family: "Poppins", sans-serif;
+  color: #whitesmoke !important;
+}
+  txt1	 {
+  font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  color: #whitesmoke !important;
+}
+  /* weather checker */
+  .modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+.ShowWeatherForcast {
+    color: black;
+}
+  input, button, select, textarea {
+    color: black;
+}
+  .btn-primary {
+    bottom: 15px;
+    position: fixed;
+    left: 1250px;
+}
+span#worldclock {
+    color: black;
+}
+
+/* irrelevant styling */
+body { text-align: center; }
+body p { 
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+#tallModal .modal-body p { margin-bottom: 900px }
+</style>
+</head>
+<body>
+ <!-- nav bar -->
+   <ol>
+  <li><a class="active" href="file:///C:/Users/Nipuna%20Udara/Desktop/ceylon%20tourism/mainpage.html">Ceylon Tourism</a></li>
+  <li><a href="file:///C:/Users/Nipuna%20Udara/Desktop/ceylon%20tourism/touristsites.html">Provinces</a></li>
+  <li><a href="#contact">Accomadation</a></li>
+  <li><a href="#about">Transport</a></li>
+</ol>
+  
+  <!-- ./nav bar -->
+  
+    <!--banner-->
+        <img src="https://i.servimg.com/u/f61/19/91/46/02/kandy_10.jpg" alt="" class="responsive1" width="1730" height="450">
+        
+        <div class="pad"></div>
+          
+          <!--./banner-->
+  
+          
+            <!--form-->
+ <form>
+    
+  <div class="sigcontain">
+    <txt>KANDY</txt>
+  </div>
+    <hr>
+      
+       <div class="1"> 
+Kandy is one of the most scenic cities in Sri Lanka and lies in the midst of hills. It is the Capital of the Central Province. It is both an administrative ad religious city. Kandy is the second largest city in the country and is frequently visited by Buddhists especially of the Theravada School.<br>
+      <br>   
+Situated amidst the towering hills in the Center of Sri Lanka, Kandy was the last Royal Kingdom to give away to the invading armies of British. Having survived the Dutch and Portuguese invasions it was also the resting place of the sacred tooth relic of Lord Buddha, an honour it retains up to today. <br>
+<br>
+Kandy is the second largest city in the country and home to a diverse community. Despite its Buddhist predominance the Kandy city consist of places of worship of all the religions belonging to various periods of time. The Malwatte and Asgiri chapters of temple remain the Bikkhu custodians of the Sacred Tooth relic, their temples dominating the city’s landmarks. <br>
+<br>
+Esala Dalada Perahera, an annual procession held in July /August when the Tooth Relic of Lord Buddha is taken in procession around the city of Kandy mounted on the back of a royal tusker. The miles long procession involves years of perpetration and includes traditional dancing, music and fireworks. <br>
+<br>
+The Perdaniya Botanical Garden situated on the banks of River Mahaweli is one of South Asia’s leading arboretums, where found the most exotic collection of tropical flora flourishing in the mild climates of Kandy. 
+         <br>
+  <br>
+    <hr>
+      <center><txt1>KANDY Information and Google Map</txt1></center>
+      <hr>
+   
+        
+        <!--google map-->
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="450" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Kandy&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-vpn/">el mejor servicio vpn en julio de 2019</a></div><style>.mapouter{position:relative;text-align:right;height:350px;width:450px;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:450px;}</style></div>
+  </div>
+    
+    <!--./google map-->
+</form>
+   <!--./form-->
+    
+    <!--weather checker-->
+      <a data-toggle="modal" href="#shortModal" class="btn btn-primary">Weather Checker | Time Checker</a>
+      
+    <div id="shortModal" class="modal modal-wide fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+         <input id="city"></input>
+  <button id="getWeatherForcast">GET WEATHER</button>
+  <div class="ShowWeatherForcast"></div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      
+      $("#getWeatherForcast").click(function(){
+                
+                var city = $("#city").val();
+            var key  = '4de3768c62b67fe359758977a3efc069';
+            
+            $.ajax({
+              url:'http://api.openweathermap.org/data/2.5/weather',
+              dataType:'json',
+              type:'GET',
+              data:{q:city, appid: key, units: 'metric'},
+
+              success: function(data){
+                var wf = '';
+                $.each(data.weather, function(index, val){
+
+                  wf += '<p><b>' + data.name + "</b><img src="+ val.icon + ".png></p>"+ data.main.temp + '&deg;C ' + 
+                  ' | ' + val.main + ", " + val.description 
+
+                });
+              
+               $(".ShowWeatherForcast").html(wf);
+              }
+
+            })
+
+      });
+    });
+  </script>
+      </div>
+
+<hr>
+<br>
+<br>
+<table border="0" width="200" cellspacing="0" cellpadding="3">
+<form name="where">
+  <tr>
+    <td width="100%">
+<select name="city" size="1" onchange="updateclock(this);"> 
+<option value="" selected>Local time</option>
+<option value="0">London GMT</option> 
+<option value="1">Rome</option>
+<option value="7">Bangkok</option>
+<option value="8">Hong Kong</option>
+<option value="9">Tokyo</option> 
+<option value="10">Sydney</option>
+<option value="12">Fiji</option>
+<option value="-10">Hawaii</option>
+<option value="-8">San Francisco</option> 
+<option value="-5">New York</option>
+<option value="-3">Buenos Aires</option>
+</select>
+
+</td>
+  </tr>
+  <tr>
+    <td width="100%">
+<script language="JavaScript">
+
+/*
+Drop Down World Clock
+*/
+
+if (document.all||document.getElementById)
+document.write('<span id="worldclock" style="font:bold 16px Arial;"></span><br />')
+
+zone=0;
+isitlocal=true;
+ampm='';
+
+function updateclock(z){
+zone=z.options[z.selectedIndex].value;
+isitlocal=(z.options[0].selected)?true:false;
+}
+
+function WorldClock(){
+now=new Date();
+ofst=now.getTimezoneOffset()/60;
+secs=now.getSeconds();
+sec=-1.57+Math.PI*secs/30;
+mins=now.getMinutes();
+min=-1.57+Math.PI*mins/30;
+hr=(isitlocal)?now.getHours():(now.getHours() + parseInt(ofst)) + parseInt(zone);
+hrs=-1.575+Math.PI*hr/6+Math.PI*parseInt(now.getMinutes())/360;
+if (hr < 0) hr+=24;
+if (hr > 23) hr-=24;
+ampm = (hr > 11)?"PM":"AM";
+statusampm = ampm.toLowerCase();
+
+hr2 = hr;
+if (hr2 == 0) hr2=12;
+(hr2 < 13)?hr2:hr2 %= 12;
+if (hr2<10) hr2="0"+hr2
+
+var finaltime=hr2+':'+((mins < 10)?"0"+mins:mins)+':'+((secs < 10)?"0"+secs:secs)+' '+statusampm;
+
+if (document.all)
+worldclock.innerHTML=finaltime
+else if (document.getElementById)
+document.getElementById("worldclock").innerHTML=finaltime
+else if (document.layers){
+document.worldclockns.document.worldclockns2.document.write(finaltime)
+document.worldclockns.document.worldclockns2.document.close()
+}
+
+
+setTimeout('WorldClock()',1000);
+}
+
+window.onload=WorldClock
+//-->
+</script>
+
+<!--Place holder for NS4 only-->
+<ilayer id="worldclockns" width=100% height=35><layer id="worldclockns2" width=100% height=35 left=0 top=0 style="font:bold 16px Arial;"></layer></ilayer>
+</td>
+</form>
+  </tr>
+</table>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+      
+      <!--./weather checker-->
+      
+      <!--weather checker JS-->
+      <script>
+        $(".modal-wide").on("show.bs.modal", function() {
+  var height = $(window).height() - 200;
+  $(this).find(".modal-body").css("max-height", height);
+});
+      </script>
+      <!--./weather checker JS-->
+  
+  <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>DISCOVER</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tourist sites</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Cities & towns</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Photos</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gastronomy</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Sri Lanka</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>GOING OUT & STAY</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hotels</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Restaurants</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Outings</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Campsites</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Vacation rentals</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>TRAVEL</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>How to get there</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Rental car</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Train tickets</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Transport Services</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                                  <p><u><a href="">CEYLON TOURISM</a></u> is a registered tourism site in Sri Lanka, providing acess and information to tourists from around the globe.	</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="" target="_blank">CEYLON TOURISM</a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+    
+</body>
+</html>
