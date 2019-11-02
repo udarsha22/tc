@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -189,7 +190,7 @@ section .section-title {
   text-align: center;
       }
       
-  /* sigiriya container */
+  /* galle container */
       .sigcontain {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -242,15 +243,35 @@ body p {
 span#worldclock {
     color: black;
 }
+
+/* carousel */
+.carousel-indicators{		
+		top:105%;		
+		}
+		
+		.carousel-indicators li{
+		background-color:red;
+		}
+		.carousel-control-prev-icon {
+		 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+		}
+
+		.carousel-control-next-icon {
+		  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+		}
+		section{
+		padding:100px 0px;
+		}
 </style>
 </head>
 <body>
  <!-- nav bar -->
-      <ol>
-  <li><a class="active" href="file:///C:/Users/Nipuna%20Udara/Desktop/ceylon%20tourism/mainpage.html">Ceylon Tourism</a></li>
-  <li><a href="file:///C:/Users/Nipuna%20Udara/Desktop/ceylon%20tourism/touristsites.html">Provinces</a></li>
-  <li><a href="#contact">Accomadation</a></li>
-  <li><a href="#about">Transport</a></li>
+         <ol>
+  <li><a class="active" href="http://www.ceylontourism.tk">Ceylon Tourism</a></li>
+  <li><a href="http://www.ceylontourism.tk/touristsites">Provinces</a></li>
+  <li><a href="http://www.ceylontourism.tk/accomadation">Accomadation</a></li>
+  <li><a href="http://www.ceylontourism.tk/transport">Transport</a></li>
+       <li><a href="http://www.ceylontourism.tk/currencycal">Currency Calculator</a></li>
 </ol>
   
   <!-- ./nav bar -->
@@ -292,6 +313,101 @@ It suffered through a massive tsunami but the city has been restored to it's ori
     <!--./google map-->
 </form>
    <!--./form-->
+
+  <!--carousel-->
+
+ <section class="my-5 bg-dark">
+	<div class="container">
+	<div class="col-xl-12">
+	<h2 class="text-center text-white">Hotels & Restaurants near Galle</h2>
+	</div>
+	
+		<div id="carouselThreeColumn" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselThreeColumn" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselThreeColumn" data-slide-to="1"></li>
+			<li data-target="#carouselThreeColumn" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="row">
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/SJ6M6RW.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Elysium</h5>
+						<p class="card-text">LKR 44,829</p>
+						<a href="https://www.booking.com/searchresults.html?aid=7344211;label=metatripad-link-dmetain-hotel-1312383_xqdz-05d37304f6167efc13c3d44cffd8b664_los-01_bw-009_dom-com_curr-LKR_gst-02_nrm-01_clkid-XbwJLwokL1cAAK9HHeUAAABA_aud-0000_mbl-M_pd-B_sc-2_defdate-1_spo-0_clksrc-0;sid=46c5409d25466a001d58f0b2cdf7078d;checkin=2019-11-10;checkout=2019-11-11;city=-2222251;highlighted_hotels=1312383;hlrd=with_av;keep_landing=1;redirected=1;source=hotel&utm_campaign=in&utm_content=los-01_bw-009_dom-com_defdate-1_spo-0_clksrc-0&utm_medium=dmeta&utm_source=metatripad&utm_term=hotel-1312383&" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>	
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="hhttps://i.imgur.com/QaRTsl9.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Deco On 44</h5>
+						<p class="card-text">LKR 8,445</p>
+						<a href="https://www.agoda.com/pages/agoda/default/DestinationSearchResult.aspx?checkin=2019-11-10&checkout=2019-11-11&Rooms=1&NumberOfAdults=2&NumberOfChildren=0&childages=&siteid=1661007&currency=LKR&tag=hid2634751,pidXbwJQQokKmoAACheVBwAAAE9&pid=XbwJQQokKmoAACheVBwAAAE9&audid=16534&audm=1.0&MBL=L&BaseRate=9749.41&TaxandFee=2583.98&BasePriceDisplay=B&DisplayCurrency=LKR&SingleChevron=2&ccallout=TRUE&selectedproperty=2634751&city=11158&adults=2&children=0&hc=LKR&los=1" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/M4wvQ7u.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Villa Upper Dickson</h5>
+						<p class="card-text">LKR 17,462</p>
+						<a href="https://www.booking.com/searchresults.html?aid=7344211;label=metatripad-link-dmetain-hotel-739402_xqdz-9bccac772b57d3a5bd40d06baa023b15_los-01_bw-009_dom-com_curr-LKR_gst-02_nrm-01_clkid-XbwKUwokL1cAAKegwskAAABl_aud-0000_mbl-M_pd-B_sc-2_defdate-1_spo-0_clksrc-0;sid=46c5409d25466a001d58f0b2cdf7078d;checkin=2019-11-10;checkout=2019-11-11;city=-2222251;highlighted_hotels=739402;hlrd=with_av;keep_landing=1;redirected=1;source=hotel&utm_campaign=in&utm_content=los-01_bw-009_dom-com_defdate-1_spo-0_clksrc-0&utm_medium=dmeta&utm_source=metatripad&utm_term=hotel-739402&" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="carousel-item">
+			<div class="row">
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/jK3RK9k.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">The Bartizan Galle Fort</h5>
+						<p class="card-text">LKR 19,976	</p>
+						<a href="https://www.booking.com/searchresults.html?aid=7344211;label=metatripad-link-dmetain-hotel-271329_xqdz-a9f4a7284e941e7d48a4995b6a487b3d_los-01_bw-009_dom-com_curr-LKR_gst-02_nrm-01_clkid-XbwKZwokKWcAAFSAS3sAAAFA_aud-0000_mbl-M_pd-B_sc-2_defdate-1_spo-0_clksrc-0;sid=46c5409d25466a001d58f0b2cdf7078d;checkin=2019-11-10;checkout=2019-11-11;city=-2222251;highlighted_hotels=271329;hlrd=with_av;keep_landing=1;redirected=1;source=hotel&utm_campaign=in&utm_content=los-01_bw-009_dom-com_defdate-1_spo-0_clksrc-0&utm_medium=dmeta&utm_source=metatripad&utm_term=hotel-271329&" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>	
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/Z7apz2U.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Jetwing Lighthouse</h5>
+						<p class="card-text">LKR 38,254</p>
+						<a href="https://www.booking.com/searchresults.html?aid=7344211;label=metatripad-link-dmetain-hotel-259301_xqdz-05d37304f6167efc13c3d44cffd8b664_los-01_bw-009_dom-com_curr-LKR_gst-02_nrm-01_clkid-XbwKfQokH4YAAD87IqcAAAFZ_aud-0000_mbl-M_pd-B_sc-2_defdate-1_spo-0_clksrc-0;sid=46c5409d25466a001d58f0b2cdf7078d;checkin=2019-11-10;checkout=2019-11-11;city=-2222251;highlighted_hotels=259301;hlrd=with_av;keep_landing=1;redirected=1;source=hotel&utm_campaign=in&utm_content=los-01_bw-009_dom-com_defdate-1_spo-0_clksrc-0&utm_medium=dmeta&utm_source=metatripad&utm_term=hotel-259301&" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/Mzw7RNz.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Lady Hill</h5>
+						<p class="card-text">LKR 21,329</p>
+					<a href="https://www.booking.com/searchresults.html?aid=7344211;label=metatripad-link-dmetain-hotel-1674641_xqdz-37003cd948790c1559b4f4ae2c31a3e4_los-01_bw-009_dom-com_curr-LKR_gst-02_nrm-01_clkid-XbwKlAokH2sAAHd1gYEAAAFJ_aud-0000_mbl-L_pd-B_sc-2_defdate-1_spo-0_clksrc-0;sid=46c5409d25466a001d58f0b2cdf7078d;checkin=2019-11-10;checkout=2019-11-11;city=-2222251;highlighted_hotels=1674641;hlrd=with_av;keep_landing=1;redirected=1;source=hotel&utm_campaign=in&utm_content=los-01_bw-009_dom-com_defdate-1_spo-0_clksrc-0&utm_medium=dmeta&utm_source=metatripad&utm_term=hotel-1674641&" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+                          </section>
+
+<!--./carousel-->
+	
+
+    <!-- JavaScript for carousel -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                          <!-- ./JavaScript for carousel -->   
 
 <br>
 <br>
