@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+   <title>ACCOMADATION</title>
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" ></script>
+<style>
+  /* body */
+  body {margin: 0;
+  background-color: whitesmoke;}
+  
+  /* nav bar */
+   ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+/* nav bar active */
+.active {
+  background-color: #4CAF50;
+}
+  /* padding space */
+  .pad {
+  padding-top:50px;
+  }
+ .pad1 {
+  padding-top:625px;
+  }
+  .pad3 {
+  padding-top:25px;
+  }
+  .pad2 {
+  padding-top:65px;
+  }
+.titlebar {
+    display: inline-block;
+    width: 50%;
+    background-color: #b4aeae;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+  
+  /* picture responsivness */
+  .responsive1 {
+  max-width: 100%;
+  height: auto;
+}
+  
+  /* gallery link list */
+  .link_list {
+    margin: 7px;
+}
+ /* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+  margin-top: 500px;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+  .col-xs-12.col-sm-12.col-md-12.mt-2.mt-sm-5 {
+    margin-left: 400px;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+ 
+  /* weather checker */
+  .modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+.ShowWeatherForcast {
+    color: black;
+}
+  input, button, select, textarea {
+    color: black;
+}
+  .btn-primary {
+    bottom: 15px;
+    position: fixed;
+    left: 1350px;
+}
+/* irrelevant styling */
+body { text-align: center; }
+body p { 
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+#tallModal .modal-body p { margin-bottom: 900px }
+  figure {
+    margin: 0;
+    position: relative;
+}
+
+  /* fig cont */ 
+  
+figure img {
+    max-width: 100%;
+    display: block;
+	position: relative;
+    z-index: 10;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+figure:hover img {
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+figure:hover figcaption {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+figure a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+}
+
+figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+figcaption span:before {
+	content: 'by ';
+}
+
+figcaption a {
+    text-align: center;
+    padding: 3px 25px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ffc107;
+    color: #fff;
+}
+
+figcaption a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+      /* w3 cont */
+  
+  .w3-container h3 {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<!-- nav bar -->
+       <ol>
+  <li><a class="active" href="http://www.ceylontourism.tk">Ceylon Tourism</a></li>
+  <li><a href="http://www.ceylontourism.tk/touristsites">Provinces</a></li>
+  <li><a href="http://www.ceylontourism.tk/accomadation">Accomadation</a></li>
+  <li><a href="http://www.ceylontourism.tk/transport">Transport</a></li>
+       <li><a href="http://www.ceylontourism.tk/currencycal">Currency Calculator</a></li>
+</ol>
+  
+  <!-- ./nav bar -->
+   <div class="pad2"></div>
+  
+  <!-- title -->
+      <div class="w3-container">
+  <center><h3>Hotels & Other Accommodation</h3></center>
+      						</div>
+      
+       <!-- ./title -->
+  
+   <div class="pad3"></div>
+      
+ <!-- banner -->
+        <img src="https://i.servimg.com/u/f61/19/91/46/02/yimg_a10.jpg" alt="" class="responsive1" width="1730" height="450">
+          
+          <!-- ./banner -->
+        
+        <div class="pad3"></div>
+        <br>
+          <br>
+        <div class="titlebar"><h2>Please select your stay from the below mention categories</h2></div>
+          
+  <div class="pad"></div>
+
+                  <!-- fig cont gallery -->
+          
+          <div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+		    <figure>
+                <img src="https://i.imgur.com/pVwS650.jpg" class="img-fluid" alt="img01">
+                <figcaption>
+                    <h3>Star Class Hotels</h3>
+                    <a href="#">Check</a>
+                </figcaption>
+            </figure>
+		</div>
+		<div class="col-sm-4">
+		    <figure>
+                <img src="https://i.imgur.com/KuqWUB3.jpg" class="img-fluid" alt="img02">
+                <figcaption>
+                    <h3>Bungalows</h3>
+                    <a href="#">Check</a>
+                </figcaption>
+            </figure>
+		</div>
+		<div class="col-sm-4">
+		    <figure>
+                <img src="https://i.imgur.com/bQfoYdo.jpg" class="img-fluid" alt="img03">
+                <figcaption>
+                    <h3>Guest Houses</h3>
+                    <a href="#">Check</a>
+                </figcaption>
+            </figure>
+		</div>
+	</div>
+                  </div>
+                            <!-- ./fig cont gallery -->
+                  
+         <!--weather checker-->
+      <a data-toggle="modal" href="#shortModal" class="btn btn-primary">Weather Checker</a>
+      
+    <div id="shortModal" class="modal modal-wide fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+         <input id="city"></input>
+  <button id="getWeatherForcast">GET WEATHER</button>
+  <div class="ShowWeatherForcast"></div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      
+      $("#getWeatherForcast").click(function(){
+                
+                var city = $("#city").val();
+            var key  = '4de3768c62b67fe359758977a3efc069';
+            
+            $.ajax({
+              url:'http://api.openweathermap.org/data/2.5/weather',
+              dataType:'json',
+              type:'GET',
+              data:{q:city, appid: key, units: 'metric'},
+
+              success: function(data){
+                var wf = '';
+                $.each(data.weather, function(index, val){
+
+                  wf += '<p><b>' + data.name + "</b><img src="+ val.icon + ".png></p>"+ data.main.temp + '&deg;C ' + 
+                  ' | ' + val.main + ", " + val.description 
+
+                });
+              
+               $(".ShowWeatherForcast").html(wf);
+              }
+
+            })
+
+      });
+    });
+  </script>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+      
+      <!--./weather checker-->
+      
+      <!--weather checker JS-->
+      <script>
+        $(".modal-wide").on("show.bs.modal", function() {
+  var height = $(window).height() - 200;
+  $(this).find(".modal-body").css("max-height", height);
+});
+      </script>
+      <!--./weather checker JS-->
+        
+ <div class="pad1"></div>
+        
+      <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>DISCOVER</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tourist sites</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Provinces</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Photos</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gastronomy</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Sri Lanka</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>GOING OUT & STAY</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hotels</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Restaurants</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Outings</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Campsites</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Vacation rentals</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>TRAVEL</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>How to get there</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Rental car</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Train tickets</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Transport Services</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="">CEYLON TOURISM</a></u> is a registered tourism site in Sri Lanka, providing acess and information to tourists from around the globe.</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">CEYLON TOURISM</a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+    
+</body>
+</html>
