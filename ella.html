@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
    <title>ELLA</title>
@@ -241,6 +242,38 @@ body p {
 span#worldclock {
     color: black;
 }
+/* carousel */
+.carousel-indicators{		
+		top:105%;		
+		}
+		
+		.carousel-indicators li{
+		background-color:red;
+		}
+		.carousel-control-prev-icon {
+		 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+		}
+
+		.carousel-control-next-icon {
+		  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+		}
+		section{
+		padding:100px 0px;
+		}
+.bg-dark {
+    background-color: #333333!important;
+}
+.btn {
+    background: #362c2d;
+  color: whitesmoke;
+}
+  .card-title {
+    margin-bottom: .75rem;
+    font-size: 20px;
+}
+  .card-body {
+    color: black;
+}
 </style>
 </head>
 <body>
@@ -272,7 +305,7 @@ span#worldclock {
     <hr>
       
        <div class="1"> 
-         Ella, often described as a "lonely planet" and "waterfall" is a congested town located in Sri Lanka. Ella is pure natural beauty, with its waterfalls, greenery, and hills it is just jaw-dropping. It has views that one hasn’t witnessed before, scenes one hasn't seen before and nature one hasn't felt before. Ella is the perfect place to go to if one wants to refresh the brain. It has many famous places and has been under the attention of tourist for a decent amount of time now.<br>
+         Ella, often described as a "lonely planet" and "waterfall" is a congested town located in Sri Lanka. Ella is pure natural beauty, with its waterfalls, greenery, and hills it is just jaw-dropping. It has views that one hasnt witnessed before, scenes one hasn't seen before and nature one hasn't felt before. Ella is the perfect place to go to if one wants to refresh the brain. It has many famous places and has been under the attention of tourist for a decent amount of time now.<br>
          <br>
          One of Ella's wonders is the Ella Rock. Ella rock might be a long way up but it's worth all the struggle. Every day, tons and tons of people go and climb the Ella Rock. This is because of the special view it provides to its climber. The view from the top of the Ella Rock is difficult to put in such simple words.<br>
 <br>
@@ -295,6 +328,112 @@ People from all around the world come to visit this place because of its natural
     <!--./google map-->
 </form>
    <!--./form-->
+   <br>
+<br>
+  <!--carousel-->
+
+ <section class="my-5 bg-dark">
+	<div class="container">
+	<div class="col-xl-12">
+	<h2 class="text-center text-white">Hotels & Restaurants near Ella</h2>
+	</div>
+	<br>
+		<div id="carouselThreeColumn" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselThreeColumn" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselThreeColumn" data-slide-to="1"></li>
+			<li data-target="#carouselThreeColumn" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="row">
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/hOYiJbD.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">The Mountain Heavens Anuradhapura</h5>
+						<p class="card-text">LKR 19,696</p>
+						<a href="https://www.booking.com/hotel/lk/mountain-heavens.html" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>	
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/S3g8PgC.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Ella Flower Garden Resort</h5>
+						<p class="card-text">LKR 10,237</p>
+						<a href="http://www.ellaresort.com/" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/MV3HT1G.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">98 Acres Resort and Spa</h5>
+						<p class="card-text">LKR 27,034</p>
+						<a href="https://www.resort98acres.com/" class="btn btn-outline-success w-100">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="carousel-item">
+			<div class="row">
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/dS0Hq1M.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">The Secret Ella</h5>
+						<p class="card-text">LKR 34,700</p>
+						<a href="http://www.thesecrethotels.com/ella/">View Deal</a>
+					  </div>
+					</div>
+				  </div>	
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/NkFJUa9.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Ekho Ella</h5>
+						<p class="card-text">LKR 15,864</p>
+						<a href="https://www.ekhohotels.com/ekhoella/">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-xl-4 p-1">				
+					<div class="card">
+					  <img src="https://i.imgur.com/4cEQH6e.jpg" class="w-100">
+					  <div class="card-body">
+						<h5 class="card-title">Ella Heritage</h5>
+						<p class="card-text">LKR 9,832</p>
+					<a href="https://www.tripadvisor.com/Hotel_Review-g616035-d12515012-Reviews-Ella_Heritage-Ella_Uva_Province.html">View Deal</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		  <a class="carousel-control-prev" href="#carouselThreeColumn" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselThreeColumn" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+		</div>	
+	</section>
+
+<!--./carousel-->
+	
+
+    <!-- JavaScript for carousel -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                          <!-- ./JavaScript for carousel -->   
   
   <!--weather checker-->
       <a data-toggle="modal" href="#shortModal" class="btn btn-primary">Weather Checker | Time Checker</a>
@@ -452,12 +591,11 @@ window.onload=WorldClock
 <br>
 <br>
 <br>
-
-<!-- begin commentbox -->
-  <form><center><div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+<!-- commentbox -->
+ <center><div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
  <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
  <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24I84F.3oroyidb2Lgz4KuW0"+"&opts=16862&num=10&ts=1571918258931");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end commentbox -->
+<!-- commentbox -->
   
   <!-- Footer -->
 	<section id="footer">
